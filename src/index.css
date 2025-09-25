@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: Karla;
+    src: url(./assets/fonts/Karla-Regular.ttf);
+}
+
+
+@theme {
+    --font-karla: Karla, sans-serif;
+}

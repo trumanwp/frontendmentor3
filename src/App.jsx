@@ -4,13 +4,13 @@ function App() {
 
 
   return (
-      <div className="bg-blue-200 w-full h-screen flex flex-col items-center justify-center">
+      <div className="bg-blue-200 w-full h-screen flex flex-col items-center justify-center font-karla">
           <section className="overflow-hidden rounded-2xl">
               <div className="bg-white h-1/2 p-12">
                   <h1 className="text-teal-500 font-bold pb-4">Join our community</h1>
                   <h2 className="text-green-400">30-day, hassle-free money back guarantee</h2>
-                  <p className="text-gray-500">Gain access to our ful library of tutorials along with expert code reviews.</p>
-                  <p className="text-gray-500">Perfect for any developers who are serious about honing their skills.</p>
+                  <p className="text-gray-500 font-light">Gain access to our ful library of tutorials along with expert code reviews.</p>
+                  <p className="text-gray-500 font-light">Perfect for any developers who are serious about honing their skills.</p>
               </div>
 
               <section className="bottom h-1/2 flex flex-row w-full">
@@ -20,7 +20,7 @@ function App() {
 
                       <div className="flex flex-row align-middle items-center gap-2">
                           <h1 className="text-white text-2xl">$29</h1>
-                          <h3 className="text-gray-300">per month</h3>
+                          <h3 className="text-gray-300 font-light">per month</h3>
                       </div>
 
                       <p className="text-white mb-4">Full access for less than $1 a day</p>
